@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShortLink.Communication\ShortLink.Communication.csproj" />
+    <ProjectReference Include="..\ShortLink.Domain\ShortLink.Domain.csproj" />
+    <ProjectReference Include="..\ShortLink.Exception\ShortLink.Exception.csproj" />
+  </ItemGroup>
+
+</Project>
